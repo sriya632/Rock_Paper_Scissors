@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <p>
+        <button>Rock</button>
+        <button>Paper</button>
+        <button>Scissors</button>
+    </p>
+
+    <script>
+    const randomNumber= Math.random();
+    if (randomNumber>=0 && randomNumber< 1/3){
+        console.log('rock');
+    }
+    else if (randomNumber>=0.33 && randomNumber<2/3){
+        console.log('paper');
+    }
+    else if (randomNumber < 1) {
+        console.log('scissors');
+    }
+    </script>
+  </body>
+</html>
